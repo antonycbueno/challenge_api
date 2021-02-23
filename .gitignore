@@ -132,4 +132,4 @@ dmypy.json
 .idea/
 api/__pycache__
 project/__pycache__
-api/migrations
+api/migrations/__pycache__
