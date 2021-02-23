@@ -1,0 +1,9 @@
+{% extends "api/base.html" %}
+
+{% block title %}{{ product.title }}{% endblock %}
+
+{% block content %}
+    <h3>Produto: {{ product.title }}</h3>
+    <h3>Imagem: {{ product.image }}</h3>
+    <h3>Preço: {{ product.price }}</h3>
+{% endblock %}

@@ -1,0 +1,15 @@
+{% extends "api/base.html" %}
+
+{% block title %}CHALLENGE API{% endblock %}
+
+{% block content %}
+    {% for product in product_list %}
+        <article>
+            <h2>
+                <a href="{{ product.get_absolute_url }}">
+                    {{ product.product_id }} - {{ product.title }}
+                </a>
+            </h2>
+        </article>
+    {% endfor %}
+{% endblock %}
