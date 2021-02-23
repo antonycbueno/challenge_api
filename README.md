@@ -41,8 +41,11 @@ python manage.py runserver
 
 ## URLS
 ```
-# Direciona para local onde pode cadastrar clientes, produtos e listas de favoritos
+# Direciona para local administrativo
 http://127.0.0.1:8000/admin/
+
+# Direciona para local onde pode cadastrar clientes, produtos e listas de favoritos
+http://127.0.0.1:8000/
 
 # Direciona para visualizar todos os produtos cadastrados na API.
 http://127.0.0.1:8000/api/
