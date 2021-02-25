@@ -56,6 +56,7 @@ http://127.0.0.1:8000/api/
 ```
 Após clonar repositório, preparar ambiente virtual, instalar requisitos, subir arquivos para o banco de dados sqlite3, 
 criar super usuário e iniciar o servidor, você pode acessar a API.
+
 1 - Necessário criar clientes e também produtos, após isso já será possível criar lista de favoritos.
 2 - Após criar qualquer produto na API você já poderá visualiza-los acessando: http://127.0.0.1:8000/api/
 ```
